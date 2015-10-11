@@ -30,6 +30,6 @@ ssh-keygen  -t rsa –C "youremail@example.com"  生成SSH key
 
 git remote add origin https://github.com/zhouhaoyan/myTest.git 在本地库中执行该命令
 
-git push origin master  提交到github 版本库
+git push -u origin master  提交到github 版本库
 
 git clone https://github.com/zhouhaoyan/myTest.git  克隆版本库到本地
